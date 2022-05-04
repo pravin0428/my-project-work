@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <link rel="stylesheet" href="gift.css">
+     <!-- <link rel="stylesheet" href="gift.html"> -->
+     <link rel="stylesheet" href="gift.js">
+
+     <style>
+       #card_div{
+         height: 90%;
+       }
+    
+       h1{
+         font-size: 50px;
+        padding-top: 10px;
+         margin-left: 24px;
+         font-weight: bold;
+         color: rgb(248, 241, 241);
+       }
+
+       #feature_div{
+         display: flex;
+          justify-content: end;
+          margin-bottom: 20px;
+         margin-right: 10px;
+       }
+
+    #first{
+      display: flex;
+      margin-left: 24px;
+      gap: 20px;
+      /* background-color: black; */
+      color: white;
+      /* width: 70%; */
+    }
+    #card_div{
+      background-color: rgb(42, 41, 41);
+      margin-right: 20px; 
+    }
+
+    #gifting_tag_div{
+      width: 100%;
+      height: 90px;
+      /* background-color: black; */
+    }
+    #black{
+      background-color: rgb(42, 41, 41);
+       
+    }
+
+    @media screen and (min-width: 400px , max-width:718) {
+  body {
+   
+   display: grid;
+   grid-template-columns: repeat(2,auto);
+   grid-template-rows:  repeat(auto , auto);
+   border: 1px solid black;
+   /* background-color: rgb(41, 36, 36); */
+   gap: 20px 20px;
+   /* margin-top: 5px; */
+   /* margin-left: 10px; */
+   padding: 50px;
+   
+   
+   /* justify-items: auto; */
+ 
+    
+  }
+}
+     </style>
+
+</head>
+<body>
+  <p id="initial">Here sound the way it should be with Airdopes 115. Grab @ Rs 1499</p>
+
+ <div id="black">
+
+
+  
+    <h1>Gifting</h1>
+  
+  
+  <div id="first" >
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Show filters</span>
+    <p>68 products</p>
+  </div>
+  <div id="feature_div" >
+      <select name="Sort by features" id="sort">
+      <option value="">features</option>
+      <option value="">Best Selling</option>
+      <option value="">Alphabitical, A-Z</option>
+      <option value="">Alphabitical, A-Z</option>
+      <option value="">Price,low to higth</option>
+      <option value="">Price,high to low</option>
+      <option value="">Data,old to new</option>
+      <option value="">Data,old to new</option>
+    </select>
+  </div>
+ 
+    <div id="card_div" >
+
+
+ </div>
+   
+    </div>
+      
+
+
+
+  </body>
+</html>
+
+
+
+<script src="gift.js"></script>
+ 
+   
+  
+ 
+ 
+ 
+ 
+    
+ 
+ 
